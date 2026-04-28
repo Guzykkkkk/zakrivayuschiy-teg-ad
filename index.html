@@ -11,8 +11,332 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+  <header class="header content-section">
+      <a class="header__logo" href="#">&lt;/HTML&gt;</a>
+      <h1 class="header__title">закрывающий тег</h1>
+  </header>
+
+  <main class="main">
+      <section class="cards content-section">
+          <article class="card">
+              <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
+
+              <div class="card__image-wrapper">
+                  <img
+                          class="card__image card__image_filter_brightness"
+                          src="./images/img.png"
+                          alt="Пиксельная картинка для карточки про начало обучения"
+                  />
+                  <span class="card__label">&lt;/HTML&gt;</span>
+              </div>
+
+              <div class="card__content">
+                  <p class="card__text">
+                      Это было самое начало пути. Всё казалось новым, непривычным и немного пугающим. Я только знакомилась с редактором кода, GitHub и первыми правилами вёрстки.
+                  </p>
+                  <p class="card__text">
+                      Но уже тогда стало понятно: если идти маленькими шагами, даже сложные темы постепенно становятся понятными.
+                  </p>
+              </div>
+
+              <div class="card__buttons">
+                  <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+                      <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <g class="heart">
+                              <path class="contour" d="M12 6H9v3H6v3H3v9h3v3h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-3V3h-9v3h-3V3h-9v3Z" fill="var(--contour-color)" />
+                              <path class="main-body" d="M12 9H9v3H6v9h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-9v3h-3V6h-9v3Z" fill="none" />
+                              <path class="core" d="M18 15h3v3h-3v-3Zm-6 0h3v3h-3v-3Zm3 3h3v3h-3v-3Zm6 0h3v3h-3v-3Z" fill="none" />
+                          </g>
+                          <path class="sparks" d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM27 0h3v3h-3V0ZM0 13h3v3H0v-3ZM9 27h3v3H9v-3ZM9 0h3v3H9V0Z" fill="var(--animation-fill-color)" />
+                      </svg>
+                  </button>
+
+                  <button class="button card__like-button" type="button">
+                      <span class="button__text">Like</span>
+                  </button>
+              </div>
+          </article>
+
+          <article class="card">
+              <h2 class="card__title">1 спринт: Я — чистый лист</h2>
+
+              <div class="card__image-wrapper">
+                  <img
+                          class="card__image card__image_filter_grayscale"
+                          src="./images/img_1.png"
+                          alt="Пиксельная картинка для карточки про первый спринт"
+                  />
+                  <span class="card__label">страшно</span>
+              </div>
+
+              <div class="card__content">
+                  <p class="card__text">
+                      На первом спринте я чувствовала себя чистым листом. Много терминов, много новых действий, много страха сделать что-то не так.
+                  </p>
+                  <p class="card__text">
+                      Но именно здесь я начала привыкать к мысли, что ошибка — это не провал, а обычная часть обучения.
+                  </p>
+              </div>
+
+              <div class="card__buttons">
+                  <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+                      <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <g class="heart">
+                              <path class="contour" d="M12 6H9v3H6v3H3v9h3v3h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-3V3h-9v3h-3V3h-9v3Z" fill="var(--contour-color)" />
+                              <path class="main-body" d="M12 9H9v3H6v9h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-9v3h-3V6h-9v3Z" fill="none" />
+                              <path class="core" d="M18 15h3v3h-3v-3Zm-6 0h3v3h-3v-3Zm3 3h3v3h-3v-3Zm6 0h3v3h-3v-3Z" fill="none" />
+                          </g>
+                          <path class="sparks" d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM27 0h3v3h-3V0ZM0 13h3v3H0v-3ZM9 27h3v3H9v-3ZM9 0h3v3H9V0Z" fill="var(--animation-fill-color)" />
+                      </svg>
+                  </button>
+
+                  <button class="button card__like-button" type="button">
+                      <span class="button__text">Like</span>
+                  </button>
+              </div>
+          </article>
+
+          <article class="card">
+              <h2 class="card__title">1 спринт: А если не получится?</h2>
+
+              <div class="card__image-wrapper">
+                  <img
+                          class="card__image card__image_filter_contrast"
+                          src="./images/img_2.png"
+                          alt="Пиксельная картинка для карточки про сомнения в обучении"
+                  />
+                  <span class="card__label">сомнения</span>
+              </div>
+
+              <div class="card__content">
+                  <p class="card__text">
+                      Иногда казалось, что все вокруг понимают быстрее. Я могла долго сидеть над одной ошибкой и не видеть очевидного решения.
+                  </p>
+                  <p class="card__text">
+                      Но потом появлялся тот самый момент: код начинал работать. И это ощущение стоило всех попыток.
+                  </p>
+              </div>
+
+              <div class="card__buttons">
+                  <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+                      <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <g class="heart">
+                              <path class="contour" d="M12 6H9v3H6v3H3v9h3v3h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-3V3h-9v3h-3V3h-9v3Z" fill="var(--contour-color)" />
+                              <path class="main-body" d="M12 9H9v3H6v9h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-9v3h-3V6h-9v3Z" fill="none" />
+                              <path class="core" d="M18 15h3v3h-3v-3Zm-6 0h3v3h-3v-3Zm3 3h3v3h-3v-3Zm6 0h3v3h-3v-3Z" fill="none" />
+                          </g>
+                          <path class="sparks" d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM27 0h3v3h-3V0ZM0 13h3v3H0v-3ZM9 27h3v3H9v-3ZM9 0h3v3H9V0Z" fill="var(--animation-fill-color)" />
+                      </svg>
+                  </button>
+
+                  <button class="button card__like-button" type="button">
+                      <span class="button__text">Like</span>
+                  </button>
+              </div>
+          </article>
+
+          <article class="card">
+              <h2 class="card__title">2 спринт: Погоня за идеальным макетом</h2>
+
+              <div class="card__image-wrapper">
+                  <img
+                          class="card__image card__image_filter_hue"
+                          src="./images/img_3.png"
+                          alt="Пиксельная картинка для карточки про работу с макетом"
+                  />
+                  <span class="card__label">пиксели</span>
+              </div>
+
+              <div class="card__content">
+                  <p class="card__text">
+                      Работа с макетом научила меня смотреть внимательнее. Оказалось, что несколько пикселей могут сильно влиять на весь внешний вид страницы.
+                  </p>
+                  <p class="card__text">
+                      Я начала замечать отступы, размеры, сетки и то, как маленькие детали собираются в аккуратный интерфейс.
+                  </p>
+              </div>
+
+              <div class="card__buttons">
+                  <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+                      <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <g class="heart">
+                              <path class="contour" d="M12 6H9v3H6v3H3v9h3v3h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-3V3h-9v3h-3V3h-9v3Z" fill="var(--contour-color)" />
+                              <path class="main-body" d="M12 9H9v3H6v9h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-9v3h-3V6h-9v3Z" fill="none" />
+                              <path class="core" d="M18 15h3v3h-3v-3Zm-6 0h3v3h-3v-3Zm3 3h3v3h-3v-3Zm6 0h3v3h-3v-3Z" fill="none" />
+                          </g>
+                          <path class="sparks" d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM27 0h3v3h-3V0ZM0 13h3v3H0v-3ZM9 27h3v3H9v-3ZM9 0h3v3H9V0Z" fill="var(--animation-fill-color)" />
+                      </svg>
+                  </button>
+
+                  <button class="button card__like-button" type="button">
+                      <span class="button__text">Like</span>
+                  </button>
+              </div>
+          </article>
+
+          <article class="card">
+              <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
+
+              <div class="card__image-wrapper">
+                  <img
+                          class="card__image card__image_filter_sepia"
+                          src="./images/img_4.png"
+                          alt="Пиксельная картинка для карточки про поддержку"
+                  />
+                  <span class="card__label">поддержка</span>
+              </div>
+
+              <div class="card__content">
+                  <p class="card__text">
+                      В какой-то момент стало понятно, что учиться легче, когда рядом есть люди. Наставники, ревьюеры, одногруппники — все они помогают не бросить.
+                  </p>
+                  <p class="card__text">
+                      Даже простое объяснение или подсказка могли вернуть уверенность и желание продолжать.
+                  </p>
+              </div>
+
+              <div class="card__buttons">
+                  <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+                      <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <g class="heart">
+                              <path class="contour" d="M12 6H9v3H6v3H3v9h3v3h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-3V3h-9v3h-3V3h-9v3Z" fill="var(--contour-color)" />
+                              <path class="main-body" d="M12 9H9v3H6v9h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-9v3h-3V6h-9v3Z" fill="none" />
+                              <path class="core" d="M18 15h3v3h-3v-3Zm-6 0h3v3h-3v-3Zm3 3h3v3h-3v-3Zm6 0h3v3h-3v-3Z" fill="none" />
+                          </g>
+                          <path class="sparks" d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM27 0h3v3h-3V0ZM0 13h3v3H0v-3ZM9 27h3v3H9v-3ZM9 0h3v3H9V0Z" fill="var(--animation-fill-color)" />
+                      </svg>
+                  </button>
+
+                  <button class="button card__like-button" type="button">
+                      <span class="button__text">Like</span>
+                  </button>
+              </div>
+          </article>
+
+          <article class="card">
+              <h2 class="card__title">3 спринт: Когда стало сложнее</h2>
+
+              <div class="card__image-wrapper">
+                  <img
+                          class="card__image card__image_filter_invert"
+                          src="./images/img_5.png"
+                          alt="Пиксельная картинка для карточки про сложный этап обучения"
+                  />
+                  <span class="card__label">хаос</span>
+              </div>
+
+              <div class="card__content">
+                  <p class="card__text">
+                      На этом этапе стало сложнее. Появилось больше кода, больше правил и больше ответственности за результат.
+                  </p>
+                  <p class="card__text">
+                      Но именно сложные моменты показали, что я уже умею разбираться, искать причины ошибок и не паниковать сразу.
+                  </p>
+              </div>
+
+              <div class="card__buttons">
+                  <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+                      <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <g class="heart">
+                              <path class="contour" d="M12 6H9v3H6v3H3v9h3v3h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-3V3h-9v3h-3V3h-9v3Z" fill="var(--contour-color)" />
+                              <path class="main-body" d="M12 9H9v3H6v9h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-9v3h-3V6h-9v3Z" fill="none" />
+                              <path class="core" d="M18 15h3v3h-3v-3Zm-6 0h3v3h-3v-3Zm3 3h3v3h-3v-3Zm6 0h3v3h-3v-3Z" fill="none" />
+                          </g>
+                          <path class="sparks" d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM27 0h3v3h-3V0ZM0 13h3v3H0v-3ZM9 27h3v3H9v-3ZM9 0h3v3H9V0Z" fill="var(--animation-fill-color)" />
+                      </svg>
+                  </button>
+
+                  <button class="button card__like-button" type="button">
+                      <span class="button__text">Like</span>
+                  </button>
+              </div>
+          </article>
+
+          <article class="card">
+              <h2 class="card__title">3 спринт: Первые победы</h2>
+
+              <div class="card__image-wrapper">
+                  <img
+                          class="card__image card__image_filter_blur"
+                          src="./images/img_6.png"
+                          alt="Пиксельная картинка для карточки про первые победы"
+                  />
+                  <span class="card__label">ура!</span>
+              </div>
+
+              <div class="card__content">
+                  <p class="card__text">
+                      Когда проект начал выглядеть как настоящий сайт, появилось ощущение победы. Не просто набор тегов и стилей, а цельная работа.
+                  </p>
+                  <p class="card__text">
+                      Это был момент, когда я впервые подумала: кажется, у меня правда получается.
+                  </p>
+              </div>
+
+              <div class="card__buttons">
+                  <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+                      <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <g class="heart">
+                              <path class="contour" d="M12 6H9v3H6v3H3v9h3v3h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-3V3h-9v3h-3V3h-9v3Z" fill="var(--contour-color)" />
+                              <path class="main-body" d="M12 9H9v3H6v9h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-9v3h-3V6h-9v3Z" fill="none" />
+                              <path class="core" d="M18 15h3v3h-3v-3Zm-6 0h3v3h-3v-3Zm3 3h3v3h-3v-3Zm6 0h3v3h-3v-3Z" fill="none" />
+                          </g>
+                          <path class="sparks" d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM27 0h3v3h-3V0ZM0 13h3v3H0v-3ZM9 27h3v3H9v-3ZM9 0h3v3H9V0Z" fill="var(--animation-fill-color)" />
+                      </svg>
+                  </button>
+
+                  <button class="button card__like-button" type="button">
+                      <span class="button__text">Like</span>
+                  </button>
+              </div>
+          </article>
+
+          <article class="card">
+              <h2 class="card__title">Сейчас: Я продолжаю</h2>
+
+              <div class="card__image-wrapper">
+                  <img
+                          class="card__image card__image_filter_multiple"
+                          src="./images/img_7.png"
+                          alt="Пиксельная картинка для карточки про продолжение обучения"
+                  />
+                  <span class="card__label">вперёд</span>
+              </div>
+
+              <div class="card__content">
+                  <p class="card__text">
+                      Сейчас я уже вижу путь, который прошла. Он был непростым, но каждый этап дал мне новый навык и немного больше уверенности.
+                  </p>
+                  <p class="card__text">
+                      Я ещё многого не знаю, но теперь понимаю главное: можно разобраться почти во всём, если не останавливаться.
+                  </p>
+              </div>
+
+              <div class="card__buttons">
+                  <button class="card__icon-button" type="button" aria-label="Поставить лайк">
+                      <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                          <g class="heart">
+                              <path class="contour" d="M12 6H9v3H6v3H3v9h3v3h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-3V3h-9v3h-3V3h-9v3Z" fill="var(--contour-color)" />
+                              <path class="main-body" d="M12 9H9v3H6v9h3v3h3v3h3v3h9v-3h3v-3h3v-3h3v-9h-3V9h-3V6h-9v3h-3V6h-9v3Z" fill="none" />
+                              <path class="core" d="M18 15h3v3h-3v-3Zm-6 0h3v3h-3v-3Zm3 3h3v3h-3v-3Zm6 0h3v3h-3v-3Z" fill="none" />
+                          </g>
+                          <path class="sparks" d="M36 13h3v3h-3v-3ZM27 27h3v3h-3v-3ZM27 0h3v3h-3V0ZM0 13h3v3H0v-3ZM9 27h3v3H9v-3ZM9 0h3v3H9V0Z" fill="var(--animation-fill-color)" />
+                      </svg>
+                  </button>
+
+                  <button class="button card__like-button" type="button">
+                      <span class="button__text">Like</span>
+                  </button>
+              </div>
+          </article>
+      </section>
+      <button class="button save-button" type="button">
+          <svg class="save-button__icon" aria-hidden="true">
+              <use href="./svg/floppy.svg#floppy"></use>
+          </svg>
+          <span class="button__text">💾 Сохранить на память</span>
+      </button>
+  </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
